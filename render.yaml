@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: student-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
