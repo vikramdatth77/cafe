@@ -11,8 +11,8 @@
 	<groupId>com.example</groupId>
 	<artifactId>student-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>student-api</name>
-	<description>Student REST API</description>
+	<name>portfolio</name>
+	<description>Personal portfolio site</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -33,7 +33,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.example.studentapi.StudentApplication</mainClass>
+					<mainClass>com.example.portfolio.PortfolioApplication</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>

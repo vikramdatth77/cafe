@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Expose local student-api (port 8080) on the internet via Cloudflare quick tunnel.
+# Expose local portfolio site (port 8080) on the internet via Cloudflare quick tunnel.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
